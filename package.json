@@ -1,0 +1,42 @@
+{
+  "name": "office365",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@microsoft/microsoft-graph-client": "^1.0.0",
+    "cookie-parser": "^1.4.3",
+    "cookies": "^0.7.1",
+    "debug": "~2.6.9",
+    "dotenv": "^5.0.1",
+    "express": "~4.16.0",
+    "express-session": "latest",
+    "hbs": "~4.0.1",
+    "http": "0.0.0",
+    "http-errors": "~1.6.2",
+    "jsonwebtoken": "^8.2.1",
+    "morgan": "~1.9.0",
+    "node-storage": "0.0.7",
+    "simple-oauth2": "^1.5.2",
+    "socket.io": "^2.1.0"
+  },
+  "description": "Write a Node.js app to get Outlook mail, calendar, and contacts",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rkdaredevil/office365-rest.git"
+  },
+  "keywords": [
+    "rest-api",
+    "office365"
+  ],
+  "author": "rupesh kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rkdaredevil/office365-rest/issues"
+  },
+  "homepage": "https://github.com/rkdaredevil/office365-rest#readme"
+}
